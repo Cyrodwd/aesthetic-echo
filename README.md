@@ -39,3 +39,6 @@ sudo make uninstall
 # Contributions
 Feel free to modify, add and/or fix features, your contribution would be greatly appreciated.
 Just DO NOT add malicious lines of code.
+
+# LICENSE
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for details.

@@ -1,4 +1,5 @@
 CC = gcc
+# CC = clang
 CFLAGS = -Wall -Wextra -std=c99
 
 all: aesthetic_echo

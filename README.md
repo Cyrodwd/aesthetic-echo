@@ -2,9 +2,12 @@
 
 Aesthetic Echo is an alternative to the classic Linux "echo", with support for colors and styles.
 
+# Before Compiling
+This "program" is designed specifically for UNIX/Linux systems, therefore, you may have complications or you may not be able to run the program on a Windows system.
+
 # Compiling
 
-To compile Aesthetic Echo, make sure you have a C compiler installed on your system:
+To compile Aesthetic Echo, make sure you have a C compiler installed on your system (e.g. gcc, clang):
 
 ```bash
 make

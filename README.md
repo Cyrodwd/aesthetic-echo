@@ -8,7 +8,7 @@ This "program" is designed specifically for UNIX/Linux systems, therefore, you m
 # Compiling
 
 To compile Aesthetic Echo, make sure you have a C compiler installed on your system (e.g. gcc):
-Some of the most well-known compilers include [GCC](https://gcc.gnu.org/) and [Clang](https://clang.llvm.org/).
+Some of the most well-known compilers include [GCC](https://gcc.gnu.org/) and [Clang](https://clang.llvm.org/) (You must modify "Makefile" if you will use Clang).
 
 ```bash
 make

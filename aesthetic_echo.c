@@ -17,7 +17,8 @@ int main(int argc, char** argv) {
 
     // Check if "--version" is passed
     if (argc == 2 && strcmp(argv[1], "--version") == 0) {
-        printf("AESTHETIC VERSION: %s\n", VERSION);
+        aestheticEcho("pink", "italic", "AESTHETIC VERSION: ");
+        printf("\t%s\n", VERSION);
         return 0;
     }
 

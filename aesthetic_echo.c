@@ -5,13 +5,24 @@
 #include <string.h>
 #include <strings.h>
 
+// Version (feature)
+#define VERSION "1.0.1"
+
+// Functions declaration
 void setTextColor(const char* color);
 void setTextStyle(const char* style);
 void aestheticEcho(const char color[], const char style[], const char text[]);
 
 int main(int argc, char** argv) {
-    // Check if the correct number of command-line arguments is provided
-    if (argc != 4) {
+
+    // Check if "--version" is passed
+    if (argc == 2 && strcmp(argv[1], "--version") == 0) {
+        printf("AESTHETIC VERSION: %s\n", VERSION);
+        return 0;
+    }
+
+     // Check if the correct number of command-line arguments is provided
+    if (argc < 4) {
         printf("Usage: %s <color> <style> <text>\n", argv[0]);
         return 1;
     }

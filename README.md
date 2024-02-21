@@ -7,7 +7,8 @@ This "program" is designed specifically for UNIX/Linux systems, therefore, you m
 
 # Compiling
 
-To compile Aesthetic Echo, make sure you have a C compiler installed on your system (e.g. gcc, clang):
+To compile Aesthetic Echo, make sure you have a C compiler installed on your system (e.g. gcc):
+Some of the most well-known compilers include [GCC](https://gcc.gnu.org/) and [Clang](https://clang.llvm.org/).
 
 ```bash
 make
@@ -36,4 +37,5 @@ sudo make uninstall
 ```
 
 # Contributions
-...
+Feel free to modify, add and/or fix features, your contribution would be greatly appreciated.
+Just DO NOT add malicious lines of code.

@@ -4,7 +4,7 @@ Aesthetic Echo is an alternative to the classic Linux "echo", with support for c
 
 # Compiling
 
-To compile Color Echo, make sure you have a C compiler installed on your system:
+To compile Aesthetic Echo, make sure you have a C compiler installed on your system:
 
 ```bash
 make
